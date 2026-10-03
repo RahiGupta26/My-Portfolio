@@ -398,7 +398,7 @@ html, body {
   background: #f6eed8;
   background-image: 
     radial-gradient(ellipse at 50% 50%, rgba(255, 252, 245, 0.85) 0%, rgba(225, 212, 185, 0.75) 100%),
-    url('/vintage-paper.jpg');
+    url('/vintage-paper.webp');
   background-size: cover;
   border: 2px solid #8b6534;
   border-radius: 8px;
@@ -409,7 +409,7 @@ html, body {
 
 .tablet-bio-mockup {
   background: #242220;
-  background-image: url('/stone-tablet.png');
+  background-image: url('/stone-tablet.webp');
   background-size: cover;
   background-position: center;
   border: 1px solid #736b5e;
@@ -425,7 +425,7 @@ html, body {
   width: 100%;
   padding: 24px;
   background: #14101a;
-  background-image: url('/sketchbook-main.jpg');
+  background-image: url('/sketchbook-main.webp');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -438,7 +438,7 @@ html, body {
   gap: 20px;
   width: min(94vw, 1100px);
   background: #fcf8ee;
-  background-image: url('/vintage-paper.jpg');
+  background-image: url('/vintage-paper.webp');
   background-size: cover;
   border: 6px solid #452c1a;
   border-radius: 8px;
@@ -634,7 +634,7 @@ html, body {
 
 .handwritten-note-card {
   background: #fdf6e2;
-  background-image: url('/vintage-paper.jpg');
+  background-image: url('/vintage-paper.webp');
   background-size: cover;
   border: 2px solid #a87e43;
   border-radius: 8px;
@@ -674,7 +674,7 @@ html, body {
   background-color: #f7eed9;
   background-image: 
     radial-gradient(ellipse at 50% 50%, rgba(255, 252, 245, 0.85) 0%, rgba(220, 205, 175, 0.75) 100%),
-    url('/vintage-paper.jpg');
+    url('/vintage-paper.webp');
   background-size: cover;
   color: #2b1c10;
   border-radius: 8px;

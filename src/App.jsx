@@ -157,9 +157,9 @@ export default function App() {
           badge="NODE 01 // ENTRY REALM"
           title="The Castle Entry Gateway (Authentication & Profile Tablet)"
           assets={[
-            '/castle-bg.jpg',
-            '/vintage-paper.jpg',
-            '/stone-tablet.png'
+            '/castle-bg.webp',
+            '/vintage-paper.webp',
+            '/stone-tablet.webp'
           ]}
           behaviors={[
             "Paper Preloader: Tears vertically in 2 halves revealing ancient stone gateway facade",
@@ -172,7 +172,7 @@ export default function App() {
 
         <div className="showcase-content">
           <div className="panel-viewport" style={{ minHeight: '420px', position: 'relative' }}>
-            <img src="/castle-bg.jpg" alt="Castle Entry Gateway" />
+            <img src="/castle-bg.webp" alt="Castle Entry Gateway" />
             {/* Clean Hotspot Pins */}
             <div className="hotspot-pin" style={{ top: '56%', left: '50%' }}>
               <div className="hotspot-pulse" />
@@ -237,7 +237,7 @@ export default function App() {
           badge="NODE 02 // REALM HUB"
           title="The Scholar Study Chamber Desk (Corrected Item Hotspot Layout)"
           assets={[
-            '/study-chamber.jpg'
+            '/study-chamber.webp'
           ]}
           behaviors={[
             "Central Portfolio Navigation Nexus: Connects all environmental realms from the scholar's desk",
@@ -253,7 +253,7 @@ export default function App() {
 
         <div className="showcase-content">
           <div className="panel-viewport" style={{ minHeight: '440px', position: 'relative' }}>
-            <img src="/study-chamber.jpg" alt="Scholar Study Chamber Desk" />
+            <img src="/study-chamber.webp" alt="Scholar Study Chamber Desk" />
 
             {/* 1. TOP BOOKSHELF RACK: Archive of Knowledge (Skills) */}
             <div className="hotspot-pin" style={{ top: '12%', left: '56%' }}>
@@ -336,7 +336,7 @@ export default function App() {
           badge="NODE 03 // ILLUMINATED FOLIO"
           title="The Green Journal (Tome of Works) Inner Page Spread"
           assets={[
-            '/sketchbook-main.jpg'
+            '/sketchbook-main.webp'
           ]}
           behaviors={[
             "Authentic 2-Page Folio Layout: Leatherbound green sketchbook opening into illuminated parchment spreads",
@@ -478,7 +478,7 @@ export default function App() {
           badge="NODE 05 // RETRO CHRONICLES"
           title="Personal Chronicles (Biographical Timeline & CRT Terminal)"
           assets={[
-            '/vintage-paper.jpg'
+            '/vintage-paper.webp'
           ]}
           behaviors={[
             "Retro CRT Preloader: Boots green-phosphor CRT television scanner before opening biography",
@@ -528,7 +528,7 @@ export default function App() {
           badge="NODE 06 // QUEST ENGINE"
           title="The Arcane Quest Journal (All 11 Progress Checkpoints)"
           assets={[
-            '/vintage-paper.jpg'
+            '/vintage-paper.webp'
           ]}
           behaviors={[
             "Global Progress Matrix: Tracks 11 unique realm exploration achievements across the entire app",
@@ -576,8 +576,8 @@ export default function App() {
           badge="NODE 07 // WORLD CHART"
           title="Cartographer's Sea Chart (3D Adventure Map & Flight Routes)"
           assets={[
-            '/fantasy-map.jpg',
-            '/study-chamber.jpg'
+            '/fantasy-map.webp',
+            '/study-chamber.webp'
           ]}
           behaviors={[
             "Interactive Planetary Chart: Displays 5 geographic destination nodes mapped across ancient maritime parchment",
@@ -590,7 +590,7 @@ export default function App() {
 
         <div className="showcase-content">
           <div className="map-canvas-wrapper">
-            <img src="/fantasy-map.jpg" alt="Cartographer's Sea Chart" />
+            <img src="/fantasy-map.webp" alt="Cartographer's Sea Chart" />
 
             {/* Mapped Geographic Nodes */}
             {MAP_POINTS.map((pt) => (
@@ -704,8 +704,8 @@ export default function App() {
           badge="NODE 09 // OCCULT SANCTUARY"
           title="The Crag of the Fallen & Demonic Altar Room (Death Place Sanctuary)"
           assets={[
-            '/death-place-bg.jpg',
-            '/demonic-altar.jpg'
+            '/death-place-bg.webp',
+            '/demonic-altar.webp'
           ]}
           behaviors={[
             "Dual-Stage Occult Journey: The Crag of the Fallen overview leads directly into the Demonic Altar inner sanctum",
@@ -725,7 +725,7 @@ export default function App() {
                 <span className="spec-badge">EXTERIOR</span>
               </div>
               <div className="panel-viewport">
-                <img src="/death-place-bg.jpg" alt="The Crag of the Fallen" />
+                <img src="/death-place-bg.webp" alt="The Crag of the Fallen" />
                 <div className="hotspot-pin" style={{ top: '52%', left: '50%' }}>
                   <div className="hotspot-pulse" style={{ borderColor: '#ef4444', boxShadow: '0 0 16px #ef4444' }} />
                   <div className="hotspot-label" style={{ color: '#fca5a5' }}>GARGOYLE BLOOD GATE (ENTRY)</div>
@@ -742,7 +742,7 @@ export default function App() {
                 <span className="spec-badge">INTERIOR</span>
               </div>
               <div className="panel-viewport">
-                <img src="/demonic-altar.jpg" alt="Demonic Altar Sanctuary" />
+                <img src="/demonic-altar.webp" alt="Demonic Altar Sanctuary" />
                 <div className="hotspot-pin" style={{ top: '48%', left: '24%' }}>
                   <div className="hotspot-pulse" style={{ borderColor: '#ef4444' }} />
                   <div className="hotspot-label">ANCIENT GRIMOIRE</div>
@@ -772,7 +772,7 @@ export default function App() {
           badge="NODE 10 // ABYSS PRECIPICE"
           title="The Rift Vault (Misty Pentagram Cliff Overview)"
           assets={[
-            '/misty-pentagram.jpg'
+            '/misty-pentagram.webp'
           ]}
           behaviors={[
             "Fullscreen Cliff Composition: High-altitude mountain precipice overlooking an endless sea of volumetric mist",
@@ -785,7 +785,7 @@ export default function App() {
 
         <div className="showcase-content">
           <div className="panel-viewport" style={{ minHeight: '440px', position: 'relative' }}>
-            <img src="/misty-pentagram.jpg" alt="The Rift Vault Misty Pentagram Cliff" />
+            <img src="/misty-pentagram.webp" alt="The Rift Vault Misty Pentagram Cliff" />
 
             <div className="hotspot-pin" style={{ top: '65%', left: '50%' }}>
               <div className="hotspot-pulse" style={{ borderColor: '#ef4444', boxShadow: '0 0 25px #ef4444' }} />
@@ -815,7 +815,7 @@ export default function App() {
           badge="NODE 11 // SUBTERRANEAN CITADEL"
           title="The Frozen Citadel (Dark Place Sand Library & Ashen Press Grid)"
           assets={[
-            '/frozen-citadel-library.jpg'
+            '/frozen-citadel-library.webp'
           ]}
           behaviors={[
             "Subterranean Cathedral Architecture: Immense arched stone vaults housing towering multi-tier mahogany bookshelves",
@@ -828,7 +828,7 @@ export default function App() {
 
         <div className="showcase-content">
           <div className="panel-viewport" style={{ minHeight: '440px', position: 'relative' }}>
-            <img src="/frozen-citadel-library.jpg" alt="The Frozen Citadel Sand Library" />
+            <img src="/frozen-citadel-library.webp" alt="The Frozen Citadel Sand Library" />
 
             <div className="hotspot-pin" style={{ top: '35%', left: '26%' }}>
               <div className="hotspot-pulse" />
@@ -863,7 +863,7 @@ export default function App() {
           badge="NODE 12 // SYLVAN WILDERNESS"
           title="The Sylvan Dark Forest (Ancient Woodland Canopy & Overland Trail)"
           assets={[
-            '/dark-forest-bg.jpg'
+            '/dark-forest-bg.webp'
           ]}
           behaviors={[
             "Pure Sylvan Atmosphere: Zero modern border panels or digital boxes overlaying the raw artwork",
@@ -876,7 +876,7 @@ export default function App() {
 
         <div className="showcase-content">
           <div className="panel-viewport" style={{ minHeight: '440px', position: 'relative' }}>
-            <img src="/dark-forest-bg.jpg" alt="The Sylvan Dark Forest" />
+            <img src="/dark-forest-bg.webp" alt="The Sylvan Dark Forest" />
 
             <div className="hotspot-pin" style={{ top: '35%', left: '50%' }}>
               <div className="hotspot-pulse" style={{ borderColor: '#10b981', boxShadow: '0 0 16px #10b981' }} />
